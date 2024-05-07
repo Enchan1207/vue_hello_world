@@ -5,6 +5,9 @@
   "description": "Vue example from scratch",
   "author": "Enchan1207",
   "license": "MIT",
+  "scripts": {
+    "dev": "vite"
+  },
   "dependencies": {
     "vue": "^3.4.27"
   },
