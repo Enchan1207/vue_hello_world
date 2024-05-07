@@ -1,0 +1,8 @@
+{
+  "name": "hello_world",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Vue example from scratch",
+  "author": "Enchan1207",
+  "license": "MIT"
+}
