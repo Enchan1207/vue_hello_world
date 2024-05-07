@@ -4,5 +4,13 @@
   "type": "module",
   "description": "Vue example from scratch",
   "author": "Enchan1207",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "@vue/tsconfig": "^0.5.1",
+    "typescript": "^5.4.5",
+    "vue-tsc": "^2.0.16"
+  }
 }
