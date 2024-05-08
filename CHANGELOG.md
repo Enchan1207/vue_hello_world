@@ -59,4 +59,7 @@ npx vite build
 
 これでdist配下にWebAppが出力されるので、これをまるごと持っていけばよい
 
+## linter, formatterの設定
+
+eslintとprettierを開発用の依存関係として追加、eslintはそのままだと怒られるので `eslintrc.cjs` を追加 prettierも同様に `prettierrc.json` を追加 (公式のそれとは異なり、行末セミコロンを有効化)
 
