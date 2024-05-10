@@ -1,14 +1,28 @@
 <!-- ルートコンポーネント -->
 <script lang="ts">
-export default {
-    data(){
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+    data() {
         return {
-            message: "Hello, World!"
-        }
+            count: 0
+        };
     }
-}
+});
 </script>
 
 <template>
-    <div>{{ message }}</div>
+    <h2>Button Clicker</h2>
+    <div id="clicker">
+        <button @click="count++">Click me!</button>
+        <span>{{ count }}</span>
+    </div>
 </template>
+
+<style scoped>
+#clicker{
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+</style>
