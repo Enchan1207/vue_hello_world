@@ -1,5 +1,5 @@
 <!-- ルートコンポーネント -->
-<script>
+<script lang="ts">
 export default {
     data(){
         return {
