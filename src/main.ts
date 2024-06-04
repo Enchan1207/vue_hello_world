@@ -1,6 +1,11 @@
 //
+// エントリポイント
 //
-//
-const now: Date = new Date();
-const message: string = `Hello, TypeScript! now: ${now.toISOString()}`;
-console.log(message);
+import { createApp } from 'vue';
+import App from './App.vue';
+
+// アプリケーションインスタンスの作成
+const app = createApp(App);
+
+// HTML要素へのマウント
+app.mount('#app');
